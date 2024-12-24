@@ -1,0 +1,1 @@
+This repository demonstrates a common subtle bug in Tcl: string comparison where numerical comparison is expected.  The `badproc` procedure incorrectly compares numbers lexicographically. The solution shows how to properly use the `expr` command for numerical comparison.
